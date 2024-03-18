@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,600,600i');
+
+html,
+body {
+    margin: 0;
+    height: 120%;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+a {
+    text-decoration: none
+}
+
+.header {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    height: 50vw;
+    min-height: 400px;
+    max-height: 400px;
+    min-width: 300px;
+    color: #eee;
+}
+
+.header:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.12) 40%, rgba(27, 32, 48, 1) 100%);
+}
+
+.header:before {
+    content: "";
+    width: 100%;
+    height: 200%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    background: #1B2030 url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6800ceaa-7b92-4404-b930-19c890332149/d95gdw5-8a7b7f07-29d1-4d54-8a8a-c1762274e1c2.jpg/v1/fill/w_1024,h_576,q_75,strp/dark_souls_iii_youtube_banner_by_munishin_d95gdw5-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTc2IiwicGF0aCI6IlwvZlwvNjgwMGNlYWEtN2I5Mi00NDA0LWI5MzAtMTljODkwMzMyMTQ5XC9kOTVnZHc1LThhN2I3ZjA3LTI5ZDEtNGQ1NC04YThhLWMxNzYyMjc0ZTFjMi5qcGciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.O-Q7aDxogX0cAlCehdRJcHRmJYV0---kMICxn_yAV9o) 50% 0 no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    animation: grow 360s linear 10ms infinite;
+    transition: all 0.4s ease-in-out;
+    z-index: -2
+}
+
+.header a {
+    color: #eee
+}
+
+.logo {
+    border: 2px solid #fff;
+    border-radius: 3px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    align-content: center;
+    margin: 20px;
+    padding: 0px 10px;
+    font-weight: 900;
+    font-size: 1.1em;
+    line-height: 1;
+    box-sizing: border-box;
+    height: 40px
+}
+
+.sides,
+.info {
+    flex: 0 0 auto;
+    width: 50%
+}
+
+.info {
+    width: 100%;
+    padding: 15% 10% 0 10%;
+    text-align: center;
+    text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2)
+}
+
+.info h4,
+.meta {
+    font-size: 0.7em
+}
+
+.meta {
+    font-style: italic;
+}
+
+@keyframes grow {
+    0% {
+        transform: scale(1) translateY(0px)
+    }
+
+    50% {
+        transform: scale(1.2) translateY(-400px)
+    }
+}
+
+.content {
+    padding: 5% 10%;
+    text-align: justify
+}
+
+
+.twtr {
+    margin-top: 100px
+}
+
+.title{
+    font-size: 7vh;
+    text-align: center;
+
+}
+
+.flex {
+    display: flex;
+}
+
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+	
+}
+
+.space-arround{
+    justify-content: space-around;
+}
+
+.item {
+	margin: 10px;
+	text-align: center;
+	font-size: 1.5em;
+    width: 300px;
+    height: 300px;
+    border-radius: 6px;
+}
+
+.cemetery{
+
+    background-image: url('https://s3.amazonaws.com/primagames-prod-assets/_resized/images/news/Mercenary-overlooking-Firelink-Shrine.jpg_1200x500_.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.farron{
+
+    background-image: url('https://assets.vg247.com/current//2016/04/dark_souls_3_guide_generic_5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.anor{
+
+    background-image: url('https://www.explore.com/img/gallery/dark-souls-fans-visit-the-destination-in-europe-that-inspired-anor-londo/intro-1708635654.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.lotric{
+
+    background-image: url('https://live.staticflickr.com/1591/26361153061_5e3c2884b4_h.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.garden{
+
+    background-image: url('https://darksouls3.wdfiles.com/local--files/image-set:areas/consumed-king-s-garden-sq.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.archives{
+
+    background-image: url('https://darksouls3.wdfiles.com/local--files/image-set:areas/grand-archives-sq.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.peak{
+
+    background-image: url('https://i.redd.it/jb62k0ml1i071.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.ashes{
+
+    background-image: url('https://cdn.cloudflare.steamstatic.com/steam/apps/506970/ss_494051671ecd39aef7f8a6b6b01b0a1eccc2f34f.1920x1080.jpg?t=1580310767');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.mapas{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #afafaf;
+
+}
+
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+    align-items: center;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
