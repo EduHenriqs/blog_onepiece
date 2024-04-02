@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="header">
+            <div class="logo">
+                <a href="#"><img src="images/logo.png" alt="Meu Logo" class="logo-img"></a>
+            </div>
+
+            <div class="navbar">
+                <nav>
+                    <a href="#" class="selected">Principal</a>
+                    <a href="#">Outras Moedas</a>
+                    <a href="#">Conversão</a>
+                    <a href="#">API</a>
+                </nav>
+            </div>
+        </div>
+       
+        <div class="main">
+            <div class="topic">
+                <h1>Cotações</h1>
+                <br>
+                <button type="button" onclick="fazerRequisicao()" class="btn-calc">Atualizar Dados</button>
+            </div>
+
+            <div class="divider">
+                <h4>API: <span>Banco Central - Cotação Atual do Dólar</span></h4>
+                <h4>Descrição: <span>Este site desenvolvido com Grid e está utilizando a API do Banco Central para consultar a cotação atual do Dólar. Caso a cotação do dia ainda não tenha sido publicada, será apresentada a última contação disponível!</h4>
+                        
+            </div>
+
+            <div class="divider">
+                <h1>Cotação de Compra do Dólar</h1>
+                        <p id="dolarCompra"></p>
+            </div>
+
+            <div class="divider">
+                <h1>Cotação de Venda do Dólar</h1>
+                <p id="dolarVenda"></p>
+            </div>
+
+            <div class="divider">
+                <h1>Data da Última Cotação</h1>
+                <p id="ultimaCotacao"></p>
+            </div>
+
+        </div>
+
+
+        <div class="footer">
+           
+            <div class="social-media">
+                <div class="copyright">
+                    <h2>All Rights Reserved &copy;</h2>
+                </div>
+            </div>
+        </div>
+
+        <script src="js/scripts.js"></script>
+</body>
+
+</html>
