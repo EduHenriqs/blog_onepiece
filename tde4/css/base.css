@@ -82,7 +82,7 @@ body {
   color: black;
   font-weight: bolder;
   margin-bottom: 0px;
-  font-size: 2.5vw;
+  font-size: 3em;
 
 }
 
@@ -106,6 +106,97 @@ body {
 
   width: 80%;
   
+}
+
+
+.section-servicos .container h2{
+
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 0px;
+
+}
+
+.section-servicos .container hr{
+
+  width: 10%;
+  border: 2px solid #1c5fa8;
+  opacity: 1;
+  margin: 10px 0px 10px 0px ;
+
+}
+
+.section-servicos .container p{
+
+  text-align: center;
+  padding: 0px 15%;
+
+}
+
+.img-servico{
+
+  border-radius: 10px;
+  transition: all 0.5s !important;
+
+}
+
+.section-fale{
+
+  background-color: #1c5fa8;
+
+
+}
+
+.section-fale h2{
+
+  color: white;
+  text-align: center;
+  font-weight: 800;
+  margin: 0px;
+
+}
+
+.section-fale hr{
+
+  width: 5%;
+  border: 2px solid #ffd700;
+  opacity: 1;
+  margin: 10px 0px 10px 0px ;
+
+}
+
+.section-fale label{
+
+  color: #ffd700;
+  font-weight: 500;
+
+}
+
+footer{
+  padding: 20px;
+  background-color: #1c5fa8;
+  border-top: 1px solid white;
+  color: white;
+}
+
+footer h4,h6{
+
+  font-weight: 700;
+
+}
+
+footer p{
+
+  margin-bottom: 0px;
+  line-height: 1.25rem;
+
+}
+
+.img-servico:hover{
+
+  transform: scale(1.2) !important;
+  border: 2px solid #1c5fa8 !important;
+
 }
 /* 
 Cores defaults do site para utilização
